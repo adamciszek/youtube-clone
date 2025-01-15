@@ -13,11 +13,6 @@ function App() {
               <RecommendedVideos />
           </div>
 
-
-
-          {/* sidebar */}
-          {/* recomendations */}
-
       </div>
   );
 }
