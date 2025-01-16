@@ -23,12 +23,14 @@
 }
 .header__input > input {
     flex: 1;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
     width: 100%;
-    margin-left: 5px;
+    margin-left: 2px;
     border: none;
 }
 .header__search-icon {
-    display: flex;
+    display: flex !important;
     width: 50px !important;
     border-left: 1px solid black;
     color: rgba(27,27,27,0.92);

@@ -1,0 +1,51 @@
+.videoRow {
+    display: flex;
+    margin-bottom: 30px;
+    max-width: 700px;
+}
+
+.videoRow > img {
+    object-fit: contain;
+    width: 246px;
+    height: 138px;
+    border-radius: 15px;
+}
+
+.videoRow__text {
+    margin-left: 14px;
+    max-height: 138px;
+    flex: 1;
+}
+.videoRow__text > h3 {
+    font-size: medium;
+}
+.videoRow__text > p1 {
+    margin-top: 7px;
+    display: flex;
+    font-size: 11px;
+    color: dimgray;
+}
+.videoRow__text > p2 {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: dimgray;
+}
+
+.videoRow__logo {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.videoRow__description {
+    display: -webkit-box; /* This is required for multi-line truncation */
+    -webkit-box-orient: vertical; /* Enables multi-line truncation */
+    -webkit-line-clamp: 2; /* Limit to 2 lines */
+    overflow: hidden; /* Hide overflow */
+    text-overflow: ellipsis; /* Add the ellipsis when text is cut off */
+    font-size: 11px;
+    color: dimgray;
+    margin-top: 10px;
+}
